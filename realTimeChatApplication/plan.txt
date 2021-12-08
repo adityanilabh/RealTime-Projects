@@ -1,0 +1,2 @@
+This document provides all the steps require to make this project.
+
