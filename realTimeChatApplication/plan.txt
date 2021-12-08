@@ -1,2 +1,5 @@
 This document provides all the steps require to make this project.
 
+1. Create NPM package (done)
+2. Create index, js, and css file(done).
+3. Installing the dependencies (done).
