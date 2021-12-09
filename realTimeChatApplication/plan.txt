@@ -3,3 +3,10 @@ This document provides all the steps require to make this project.
 1. Create NPM package (done)
 2. Create index, js, and css file(done).
 3. Installing the dependencies (done).
+4. Create express server (done).
+5. Do frontend part (done).
+6. install socket.io, setup socket.io in server.js and client client.js
+
+
+Special things that i learned:
+1. overflow practice ( i somehow forgot :)  )

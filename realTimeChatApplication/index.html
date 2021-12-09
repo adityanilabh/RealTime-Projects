@@ -5,9 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Project ChatApp</title>
-    <link rel="stylesheet" href="public/style.css" />
+    <link href="/style.css" rel="stylesheet" />
   </head>
   <body>
+    <section class="chatSection">
+      <div class="brand">
+        <img height="40" src="/chat.png" alt="" />
+        <h1>ChatUp</h1>
+      </div>
+      <div class="messageArea">
+        <div class="incomingMessage"></div>
+        <div class="outgoingMessage"></div>
+      </div>
+      <div>
+        <textarea
+          id="textarea"
+          cols="30"
+          rows="1"
+          placeholder="Write a message"
+        ></textarea>
+      </div>
+    </section>
+    <script src="/socket.io/socket.io.js"></script>
     <script src="public/client.js"></script>
   </body>
 </html>
